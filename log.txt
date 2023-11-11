@@ -1,0 +1,17 @@
+commit 6e86b15571fbb197adbc2bb83eeb7b0603db98ed
+Author: dans <dansdana94@gmail.com>
+Date:   Sat Nov 11 12:28:55 2023 +0100
+
+    function to store value based on clicked button created
+
+commit 4879feb20d08578826be3043f55996e30fccd8c8
+Author: dans <dansdana94@gmail.com>
+Date:   Sat Nov 11 08:20:25 2023 +0100
+
+    files required created
+
+commit b6d9dc81f988751600315b30097d9c15cdb68292
+Author: dansdana94 <134293454+dansdana94@users.noreply.github.com>
+Date:   Sat Nov 11 08:16:51 2023 +0100
+
+    Initial commit
