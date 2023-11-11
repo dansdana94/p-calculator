@@ -6,7 +6,6 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    border: 2px solid red;
     width: 100vw;
     height: 100vh;
 }

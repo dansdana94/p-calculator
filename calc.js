@@ -14,13 +14,13 @@ function operation(op1,ope,op2){
         input.value = (op1 + op2)
     }
     if(ope === '*') {
-        input.value =(op1 * op2)
+        input.value = (op1 * op2)
     }
     if(ope === '-') {
         input.value = (op1 - op2)
     }
     if(ope === '/') {
-        input.value(op1 / op2)
+        input.value = (op1 / op2)
     }
 }
 
