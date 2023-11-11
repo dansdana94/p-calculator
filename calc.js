@@ -60,6 +60,7 @@ function calc(){
 
 clearbtn.addEventListener('click', (c)=>{
         c = location.reload()
+        input.value = ''
 })
 
 calc()
