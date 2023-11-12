@@ -32,19 +32,26 @@ function display(){
     })
 }
 
+
+
+
 function storeVal(){
     let e = '';
     nums.forEach(num =>{
         num.addEventListener('click', ()=>{
             e = num.id;
             if (e == '+' || e == '-' || e === '/' || e == '*'){
-                ope = e
+                ope += e
             }
             else if (ope != ''){
                 op2 += e
             } else {
                 op1 += e
             }
+            console.log(op1)
+            console.log(ope)
+            console.log(op2)
+            if(e){}
         })
     })
 }
