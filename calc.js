@@ -93,5 +93,6 @@ clearbtn.addEventListener('click',(r)=>{
   op1 = ''
   op2 = ''
 })
-
+// code still has some kinks that you will need to iron out, lookup the odin projects
+// calculator page to find out the issues and fix thems
 calc()
