@@ -1,30 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Calculator</title>
+    <link rel="stylesheet" href="./cc.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
 <body>
-  <input type="text" id="input" readonly>
-  <div id="clear">C</div>
-  <div class="nums" id="1">1</div>
-  <div class="nums" id="2">2</div>
-  <div class="nums" id="3">3</div>
-  <div class="nums" id="+">+</div>
-  <div class="nums" id="4">4</div>
-  <div class="nums" id="5">5</div>
-  <div class="nums" id="6">6</div>
-  <div class="nums" id="-">-</div>
-  <div class="nums" id="7">7</div>
-  <div class="nums" id="8">8</div>
-  <div class="nums" id="9">9</div>
-  <div class="nums" id="*">*</div>
-  <div class="nums" id="0">0</div>
-  <div class="nums" id="/">/</div>
-  <div id="equals">=</div>
+    <div id="first">
+        <button id="clear">CLEAR</button>
+      <!--  
+        <div class="numsx" >
+            <button class="nums">x</button> <button class="nums">(</button> 
+            <button class="nums">)</button> <button class="nums">mod</button>
+            <button class="nums">n</button>
+        </div>
+    -->
+        <div id="input"></div>
+        <div  class="numsx">
+            <button id="1" class="nums">1</button> <button id="2" class="nums">2</button> 
+            <button id="3" class="nums">3</button> <button id="/" class="oper">/</button> 
+        </div>
+        <div class="numsx" >
+            <button id="4" class="nums">4</button> <button id="5" class="nums">5</button> 
+            <button id="6" class="nums">6</button> <button id="*" class="oper">*</button> 
+        </div>
+        <div  class="numsx">
+            <button id="7" class="nums">7</button> <button id="8" class="nums">8</button> 
+            <button id="9" class="nums">9</button>  <button id="-" class="oper">-</button>
+        </div>
+        <div class="numsx" >
+            <button id="0" class="nums">0</button> <button id="." class="nums">.</button> 
+            <button class="" id="equalsBtn" >=</button> <button id="+" class="oper">+</button>
 
-  <script src="cc.js"></script>
+        </div>
+        </div>
+       
+        <script src="cc.js"></script>
 </body>
 </html>
